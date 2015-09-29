@@ -1,0 +1,158 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set(/Users/kociak/repos/Akka-API/src/main/scala/Pi.scala)
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/Users/kociak/repos/Akka-API/src/main/scala/Pi.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/Users/kociak/repos/Akka-API/src/main/scala/Pi.scala)
+[debug] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to /Users/kociak/repos/Akka-API/target/scala-2.11/classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.11.6
+[debug] Plain interface to Scala compiler 2.11.6  with arguments: 
+[debug] 	-nowarn
+[debug] 	-d
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_c4dbfbaf
+[debug] 	-bootclasspath
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/classes:/Users/kociak/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+[debug] 	-classpath
+[debug] 	/Users/kociak/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.5/xsbti/interface-0.13.5.jar:/Users/kociak/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.5/compiler-interface-src/compiler-interface-src-0.13.5.jar:/Users/kociak/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.6.jar:/Users/kociak/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/Users/kociak/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.3.jar:/Users/kociak/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.3.jar:/Users/kociak/.ivy2/cache/jline/jline/jars/jline-2.12.1.jar
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/API.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/Analyzer.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/Command.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/Compat.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/CompilerInterface.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/ConsoleInterface.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/DelegatingReporter.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/Dependency.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/ExtractAPI.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/ExtractUsedNames.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/LocateClassFile.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/Log.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/Message.scala
+[debug] 	/var/folders/zs/h41n_glj1tz9tp5rct41whyw0000gn/T/sbt_1daa9073/xsbt/ScaladocInterface.scala
+[debug] Getting compiler-interface from component compiler for Scala 2.11.6
+[debug] Running cached compiler 660f8194, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/classes:/Users/kociak/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+[debug] 	-classpath
+[debug] 	/Users/kociak/repos/Akka-API/target/scala-2.11/classes:/Users/kociak/.ivy2/cache/com.typesafe.akka/akka-actor/jars/akka-actor-2.0.jar
+[error] missing or invalid dependency detected while loading class file 'package.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'package.class' was compiled against an incompatible version of scala.
+[error] missing or invalid dependency detected while loading class file 'package.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'package.class' was compiled against an incompatible version of scala.
+[error] missing or invalid dependency detected while loading class file 'package.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'package.class' was compiled against an incompatible version of scala.
+[error] missing or invalid dependency detected while loading class file 'Duration.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'Duration.class' was compiled against an incompatible version of scala.
+[error] missing or invalid dependency detected while loading class file 'Actor.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'Actor.class' was compiled against an incompatible version of scala.
+[error] /Users/kociak/repos/Akka-API/src/main/scala/Pi.scala:21: illegal inheritance;
+[error]  self-type Pi.Master does not conform to akka.actor.Actor's selftype akka.actor.Actor
+[error]     extends Actor {
+[error]             ^
+[error] missing or invalid dependency detected while loading class file 'ActorRefFactory.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'ActorRefFactory.class' was compiled against an incompatible version of scala.
+[error] missing or invalid dependency detected while loading class file 'ActorContext.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'ActorContext.class' was compiled against an incompatible version of scala.
+[error] missing or invalid dependency detected while loading class file 'Props.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'Props.class' was compiled against an incompatible version of scala.
+[error] missing or invalid dependency detected while loading class file 'ActorRef.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'ActorRef.class' was compiled against an incompatible version of scala.
+[error] missing or invalid dependency detected while loading class file 'FiniteDuration.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'FiniteDuration.class' was compiled against an incompatible version of scala.
+[error] missing or invalid dependency detected while loading class file 'RoundRobinRouter.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'RoundRobinRouter.class' was compiled against an incompatible version of scala.
+[error] missing or invalid dependency detected while loading class file 'SupervisorStrategy.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'SupervisorStrategy.class' was compiled against an incompatible version of scala.
+[error] /Users/kociak/repos/Akka-API/src/main/scala/Pi.scala:28: type arguments [Pi.Worker] do not conform to method apply's type parameter bounds [T <: akka.actor.Actor]
+[error]       Props[Worker].withRouter(RoundRobinRouter(nrOfWorkers)), name = "workerRouter")
+[error]            ^
+[error] missing or invalid dependency detected while loading class file 'DurationDouble.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'DurationDouble.class' was compiled against an incompatible version of scala.
+[error] missing or invalid dependency detected while loading class file 'DurationLong.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'DurationLong.class' was compiled against an incompatible version of scala.
+[error] missing or invalid dependency detected while loading class file 'DurationInt.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'DurationInt.class' was compiled against an incompatible version of scala.
+[error] /Users/kociak/repos/Akka-API/src/main/scala/Pi.scala:46: illegal inheritance;
+[error]  self-type Pi.Listener does not conform to akka.actor.Actor's selftype akka.actor.Actor
+[error]   class Listener extends Actor {
+[error]                          ^
+[error] missing or invalid dependency detected while loading class file 'ActorSystem.class'.
+[error] Could not access type ScalaObject in package scala,
+[error] because it (or its dependencies) are missing. Check your build definition for
+[error] missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+[error] A full rebuild may help if 'ActorSystem.class' was compiled against an incompatible version of scala.
+[error] /Users/kociak/repos/Akka-API/src/main/scala/Pi.scala:55: illegal inheritance;
+[error]  self-type Pi.Worker does not conform to akka.actor.Actor's selftype akka.actor.Actor
+[error]   class Worker extends Actor {
+[error]                        ^
+[error] /Users/kociak/repos/Akka-API/src/main/scala/Pi.scala:76: type arguments [Pi.Listener] do not conform to method apply's type parameter bounds [T <: akka.actor.Actor]
+[error]     val listener = system.actorOf(Props[Listener], name = "listener")
+[error]                                        ^
+[error] /Users/kociak/repos/Akka-API/src/main/scala/Pi.scala:79: overloaded method value apply with alternatives:
+[error]   (creator: () => akka.actor.Actor,dispatcher: String,routerConfig: akka.routing.RouterConfig,deploy: akka.actor.Deploy)akka.actor.Props <and>
+[error]   (behavior: akka.actor.ActorContext => akka.actor.Actor.Receive)akka.actor.Props <and>
+[error]   (creator: akka.japi.Creator[_ <: akka.actor.Actor])akka.actor.Props <and>
+[error]   (creator: => akka.actor.Actor)akka.actor.Props <and>
+[error]   (actorClass: Class[_ <: akka.actor.Actor])akka.actor.Props <and>
+[error]   [T <: akka.actor.Actor](implicit evidence$1: ClassManifest[T])akka.actor.Props
+[error]  cannot be applied to (Pi.Master)
+[error]     val master = system.actorOf(Props(new Master(
+[error]                                 ^
+[error] 22 errors found
+[debug] Compilation failed (CompilerInterface)
+[error] (compile:compile) Compilation failed
